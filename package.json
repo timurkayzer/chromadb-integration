@@ -2,11 +2,13 @@
   "name": "talk-to-data",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "bun src/index.ts"
+    "start": "bun src/index.ts",
+    "import": "bun src/import-data.ts"
   },
   "dependencies": {
+    "@chroma-core/openai": "^0.1.9",
     "chromadb": "^3.2.0",
     "openai": "^6.15.0"
   },
